@@ -129,7 +129,6 @@
     "win": {
       "iconUrl": "https://github.com/poooi/poi/blob/master/assets/icons/poi.ico?raw=true",
       "target": [
-        "squirrel",
         "7z"
       ]
     },
@@ -141,6 +140,9 @@
         "pacman",
         "AppImage"
       ]
+    },
+    "nsis": {
+      "oneClick": false
     }
   },
   "directories": {
