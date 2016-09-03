@@ -1,4 +1,4 @@
-version: 6.3.1-b.{build}
+version: {build}
 
 platform:
   - x64
@@ -28,7 +28,7 @@ build_script:
   - npm run build_win
 
 artifacts:
-  - path: dist\**\*.exe
+  - path: dist\*.exe
     name: installer
   - path: dist\*.7z
     name: Archive
