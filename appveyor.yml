@@ -28,10 +28,8 @@ build_script:
   - npm run build_win
 
 artifacts:
-  - path: dist\win\*.exe
-    name: x64installer
-  - path: dist\win-ia32\*.exe
-    name: ia32installer
+  - path: dist\**\*.exe
+    name: installer
   - path: dist\*.7z
     name: Archive
 
