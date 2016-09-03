@@ -129,7 +129,8 @@
     "win": {
       "iconUrl": "https://github.com/poooi/poi/blob/master/assets/icons/poi.ico?raw=true",
       "target": [
-        "7z"
+        "7z",
+        "nsis"
       ]
     },
     "linux": {
