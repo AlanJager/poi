@@ -1,8 +1,0 @@
-# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.0
-ignore: {}
-# patches apply the minimum changes required to fix a vulnerability
-patch:
-  'npm:minimatch:20160620':
-    - socks5-http-client > socks5-client > ip-address > cli > glob > minimatch:
-        patched: '2017-02-07T05:33:05.949Z'
