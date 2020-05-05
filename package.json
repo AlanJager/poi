@@ -91,7 +91,7 @@
     "socks5-client": "^1.2.0",
     "socks5-http-client": "^1.0.1",
     "yargs": "^8.0.2",
-    "snyk": "^1.88.0"
+    "snyk": "^1.319.0"
   },
   "devDependencies": {
     "asar": "^0.13.0",
